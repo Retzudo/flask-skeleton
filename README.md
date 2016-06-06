@@ -8,5 +8,7 @@ $ python -m venv env
 $ . env/bin/activate
 $ pip install --upgrade pip
 $ pip install -r requirements.txt
-$ python app.py
+$ export FLASK_APP=app.py
+$ export FLASK_DEBUG=1
+$ flask run
 ```
